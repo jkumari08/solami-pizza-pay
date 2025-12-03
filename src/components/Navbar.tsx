@@ -9,7 +9,7 @@ import { cn } from '@/lib/utils';
 const navLinks = [
   { name: 'Home', path: '/' },
   { name: 'Menu', path: '/menu' },
-  { name: 'Cart', path: '/cart' },
+  { name: 'Deals', path: '/deals' },
   { name: 'Orders', path: '/orders' },
   { name: 'About', path: '/about' },
 ];
@@ -26,7 +26,7 @@ export function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 text-xl font-bold">
+          <Link to="/" className="flex items-center gap-2 text-xl font-bold ml-2">
             <span className="text-2xl">🍕</span>
             <span className="text-gradient">Solami</span>
             <span className="text-foreground">Pizza</span>

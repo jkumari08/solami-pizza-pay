@@ -48,7 +48,7 @@ export function PizzaCard({ pizza, index = 0 }: PizzaCardProps) {
 
         {/* Name & Description */}
         <h3 className="text-xl font-bold text-foreground mb-1">{pizza.name}</h3>
-        <p className="text-sm text-muted-foreground line-clamp-2 mb-3">
+        <p className="text-sm text-foreground/80 line-clamp-2 mb-3">
           {pizza.description}
         </p>
 
